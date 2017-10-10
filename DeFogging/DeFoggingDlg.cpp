@@ -518,11 +518,11 @@ void CDeFoggingDlg::defog()
 	CDstate.SetPaneText(0,_T("ÕýÃ¦"),true);
 	CString str = maximgname;
 	CString str1 = minimgname;
-	int position=str.ReverseFind('\\');
+	/*int position=str.ReverseFind('\\');
 	CString exten = str.Right(str.GetLength()-position-1);
 	int num = 0; 
-	num= datanum(exten);
-	double *ratiodata = ratio[num];
+	num= datanum(exten);*/
+	double *ratiodata = ratio[5];
 	CImage max,min;
 	max.Load(str);
 	min.Load(str1);
