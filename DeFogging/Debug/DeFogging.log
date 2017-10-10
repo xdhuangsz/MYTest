@@ -1,0 +1,36 @@
+﻿生成启动时间为 2017/10/9 21:49:59。
+     1>项目“F:\黄盛志\visualc程序\DeFogging\DeFogging\DeFogging.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\DeFogging.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         D:\software_setup\vs2010\VC\bin\CL.exe /c /Iextern\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\DeFogging.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DeFoggingDlg.cpp
+         DeFoggingDlg.cpp
+     1>f:\黄盛志\visualc程序\defogging\defogging\defoggingdlg.cpp(647): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>f:\黄盛志\visualc程序\defogging\defogging\defoggingdlg.cpp(648): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>f:\黄盛志\visualc程序\defogging\defogging\defoggingdlg.cpp(736): warning C4715: “CDeFoggingDlg::datanum”: 不是所有的控件路径都返回值
+       ResourceCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         D:\software_setup\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\黄盛志\visualc程序\DeFogging\Debug\DeFogging.exe" /INCREMENTAL /NOLOGO /LIBPATH:extern\lib\win32\microsoft /LIBPATH:lib libmex.lib libmx.lib libmat.lib mclmcrrt.lib mclmcr.lib PWdehanze.lib /MANIFEST /ManifestFile:"Debug\DeFogging.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\黄盛志\visualc程序\DeFogging\Debug\DeFogging.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\黄盛志\visualc程序\DeFogging\Debug\DeFogging.lib" /MACHINE:X86 Debug\DeFogging.res
+         Debug\DeFogging.exe.embed.manifest.res
+         Debug\CwzdSplash.obj
+         Debug\DeFogging.obj
+         Debug\DeFoggingDlg.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\DeFogging.exe.embed.manifest" /manifest Debug\DeFogging.exe.intermediate.manifest D:\software_setup\vs2010\VC\Include\Manifest\dpiaware.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         DeFogging.vcxproj -> F:\黄盛志\visualc程序\DeFogging\Debug\DeFogging.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\DeFogging.unsuccessfulbuild”。
+         正在对“Debug\DeFogging.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\黄盛志\visualc程序\DeFogging\DeFogging\DeFogging.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.29
